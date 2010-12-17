@@ -1,0 +1,14 @@
+Rates using REST Web Service 
+
+Server serve daily rates of all currency and banks which he has in database.
+
+Database can be update rates from czech CNB.
+
+Server can register watch rate currency and user. 
+After rate is inserting into local database All watch are check and someone has watch rate above actual rate, the system add 100 currency.
+
+This project was created as School project.  
+
+Don't take it example from it. I'm beginner in java.
+
+tomaslucovic@gmail.com
