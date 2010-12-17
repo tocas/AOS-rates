@@ -159,8 +159,7 @@ public class RateResource {
     @Path("/images/{image}")
     @Produces("image/*")
     public Response getImage(@PathParam("image") String image) {
-        System.out.println("Jsem Tu");
-        File f = new File("/Users/tocas/Desktop/"+ image);
+        File f = new File("/Users/tocas/Documents/CVUT/ProjectNew/AOS-rates/Server/web/"+image);
         
         if (!f.exists()) {
             throw new WebApplicationException(404);
